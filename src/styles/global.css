@@ -281,8 +281,7 @@ nav.sc .lg svg {
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: clamp(22px, 3.4vw, 48px);
-  background: radial-gradient(60% 55% at 78% 40%, rgba(192, 245, 61, 0.14), transparent 70%),
-    repeating-linear-gradient(90deg, transparent 0 calc(8.333% - 1px), rgba(250, 255, 243, 0.05) calc(8.333% - 1px) 8.333%);
+  background: repeating-linear-gradient(90deg, transparent 0 calc(8.333% - 1px), rgba(250, 255, 243, 0.05) calc(8.333% - 1px) 8.333%);
 }
 
 .hero h1 {
@@ -1814,14 +1813,6 @@ body::before {
   transform: translateY(-3px);
 }
 
-/* Mark hover glow */
-.mark {
-  transition: filter 0.6s ease;
-}
-
-.mark:hover {
-  filter: drop-shadow(0 0 32px rgba(192, 245, 61, 0.3));
-}
 
 /* Contact progress bar segments pulse */
 .prog i.on {
